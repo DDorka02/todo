@@ -1,5 +1,3 @@
-import { TODOLIST2 } from "./adatok.js";
-import Megjelenit from "./Megjelenit.js";
+import Controller from "./Controller/Controller.js";
 
-const szuloELEM = $(".tarolo")
-new Megjelenit(TODOLIST2, szuloELEM)
+new Controller()
