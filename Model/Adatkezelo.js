@@ -15,7 +15,9 @@ export default class Adatkezelo{
         this.#list[index] = false;
     }
 
-    ujadatHozzaadasa(){}
+    ujadatHozzaadasa(index){
+        this.#list.push(index)
+    }
     hatralevoFeladatokSzama(){}
     elvegzettFeladatok(){}
     hataridoigHatralevoNap(){}
